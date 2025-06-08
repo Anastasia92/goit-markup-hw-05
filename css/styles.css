@@ -495,7 +495,7 @@ img {
     position: absolute;
     background-color:  #e7e9fc;;
     border: 1px solid  rgba(0, 0, 0, 0.1);;
-   
+    top: 24px;
     right: 24px;
     border-radius: 50%;
     width: 24px;
