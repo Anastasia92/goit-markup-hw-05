@@ -268,11 +268,26 @@
             <li class="social-icon-item"><a class="social-network footer-icon-item" href=""><svg class="network" width="24" height="24">
                 <use href="./images/icons.svg#icon-linkedin"></use>
             </svg></a></li>
-        </ul>          
+        </ul>  
+           
           </div>
+          <div class="footer-bottom">
+            <p class="form-text">Subscribe</p>
+               <form  class="footer-form">
+                    <label  aria-label="footer email">
+                    <input type="email" name="footer-email" placeholder="E-mail" class="footer-input">
+                </label>
+                <button type="submit" class="hero_btn footer-btn">Subscribe
+                    <svg class="icon-btn" width="24" height="24">
+                      <use href="./images/icons.svg#icon-frame"></use>
+                    </svg>
+                </button>
+                 </form>   
+          </div>
+          
      </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close">
             <svg class="modal-close-icon" width="8" height="8">
@@ -311,6 +326,15 @@
            <div class="modal-fild">
                 <label for="user-text" class="modal-input-text">Comment</label>
               <textarea class="modal-textarea" name="user-text" id="user-text" placeholder="Text input"></textarea>  
+           </div>
+           <div class="modal-fild-policy">
+            <input type="checkbox" name="policy"
+             id="policy" class="modal-check visually-hidden"
+              value="true">
+            <label for="policy" class="check-text"><span class="check-element"><svg class="check-icon" width="10"
+                 height="8">
+              <use href="./images/icons.svg#icon-vector"></use>
+            </svg></span>I accept the terms and conditions of the <a href="" class="policy-text">Privacy Policy</a></label>
            </div>
             <button type="submit" class="hero_btn">Send</button>
         </form>
